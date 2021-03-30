@@ -19,8 +19,8 @@ namespace Microsoft.MixedReality.Toolkit.Utilities.Solvers
         [SerializeField]
         [FormerlySerializedAs("facingThreshold")]
         [Tooltip("The angle (in degrees) of the cone between the palm's up and camera's forward have to match. Only supported by IMixedRealityHand controllers.")]
-        [Range(180.0f, 270.0f)]
-        private float facingCameraTrackingThreshold = 260.0f;
+        [Range(90.0f, 180.0f)]
+        private float facingCameraTrackingThreshold = 90.0f;
 
         /// <summary>
         /// The angle (in degrees) of the cone between the palm's up and camera's forward have to match. Only supported by <see cref="Microsoft.MixedReality.Toolkit.Input.IMixedRealityHand"/> controllers.
@@ -230,7 +230,7 @@ namespace Microsoft.MixedReality.Toolkit.Utilities.Solvers
             }
 
             // Check if the palm angle meets the prescribed threshold
-            return palmCameraAngle < facingCameraTrackingThreshold;
+            return palmCameraAngle > facingCameraTrackingThreshold;
         }
 
         /// <summary>
