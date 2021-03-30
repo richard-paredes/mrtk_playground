@@ -15,4 +15,8 @@ public class Spell : MonoBehaviour
 
     [SerializeField]
     public GameObject AdditionalCastEffect;
+    [SerializeField]
+    public float ManaCost = 50.0f;
+    [SerializeField]
+    public float Damage = 10.0f;
 }

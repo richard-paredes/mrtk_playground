@@ -60,6 +60,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6412762527797516588, guid: 5cdae13b4d2a424429933a134f243c01, type: 3}
     - target: {fileID: 8765324251751694894, guid: 14a024fdb6660f246b5f562179fbd6ca, type: 3}
+      propertyPath: ManaCost
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765324251751694894, guid: 14a024fdb6660f246b5f562179fbd6ca, type: 3}
       propertyPath: CastEffect
       value: 
       objectReference: {fileID: 2876458220032980853, guid: 2970c661cd816a146817fdbf92e5646e, type: 3}
