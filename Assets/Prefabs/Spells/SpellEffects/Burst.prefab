@@ -9,7 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1793853348663404, guid: 6209dfa15219d234f9737769610fffc9, type: 3}
       propertyPath: m_Name
-      value: Effect21
+      value: Burst
+      objectReference: {fileID: 0}
+    - target: {fileID: 1793853348663404, guid: 6209dfa15219d234f9737769610fffc9, type: 3}
+      propertyPath: m_TagString
+      value: SpellEffect
       objectReference: {fileID: 0}
     - target: {fileID: 4643683999604400, guid: 6209dfa15219d234f9737769610fffc9, type: 3}
       propertyPath: m_RootOrder

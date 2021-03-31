@@ -9,7 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 195834, guid: 88dfa986f2cbd1b49be7b927c0f51e08, type: 3}
       propertyPath: m_Name
-      value: Effect15
+      value: FlameOrb
+      objectReference: {fileID: 0}
+    - target: {fileID: 195834, guid: 88dfa986f2cbd1b49be7b927c0f51e08, type: 3}
+      propertyPath: m_TagString
+      value: SpellEffect
       objectReference: {fileID: 0}
     - target: {fileID: 462424, guid: 88dfa986f2cbd1b49be7b927c0f51e08, type: 3}
       propertyPath: m_RootOrder

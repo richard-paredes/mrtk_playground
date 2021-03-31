@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Burst
       objectReference: {fileID: 0}
+    - target: {fileID: 7610753814570542717, guid: 14a024fdb6660f246b5f562179fbd6ca, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8592212817806662011, guid: 14a024fdb6660f246b5f562179fbd6ca, type: 3}
       propertyPath: m_RootOrder
       value: 0

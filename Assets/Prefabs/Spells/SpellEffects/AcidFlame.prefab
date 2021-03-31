@@ -9,7 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1033462822675242, guid: 43dbb3bbd1afeb24692c1d8f8b260845, type: 3}
       propertyPath: m_Name
-      value: Effect12
+      value: AcidFlame
+      objectReference: {fileID: 0}
+    - target: {fileID: 1033462822675242, guid: 43dbb3bbd1afeb24692c1d8f8b260845, type: 3}
+      propertyPath: m_TagString
+      value: SpellEffect
       objectReference: {fileID: 0}
     - target: {fileID: 4660060631330338, guid: 43dbb3bbd1afeb24692c1d8f8b260845, type: 3}
       propertyPath: m_RootOrder

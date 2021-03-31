@@ -9,7 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1436447386774278, guid: b36e5394bf3902b41877ecba9aa55b8d, type: 3}
       propertyPath: m_Name
-      value: Effect7
+      value: CosmicMeteor
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436447386774278, guid: b36e5394bf3902b41877ecba9aa55b8d, type: 3}
+      propertyPath: m_TagString
+      value: SpellEffect
       objectReference: {fileID: 0}
     - target: {fileID: 4632888203439750, guid: b36e5394bf3902b41877ecba9aa55b8d, type: 3}
       propertyPath: m_RootOrder

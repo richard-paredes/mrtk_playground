@@ -9,7 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 153592, guid: 449e5ef0f6ec9b040ac709ac81442974, type: 3}
       propertyPath: m_Name
-      value: Effect13
+      value: PlasmaOrb
+      objectReference: {fileID: 0}
+    - target: {fileID: 153592, guid: 449e5ef0f6ec9b040ac709ac81442974, type: 3}
+      propertyPath: m_TagString
+      value: SpellEffect
       objectReference: {fileID: 0}
     - target: {fileID: 404350, guid: 449e5ef0f6ec9b040ac709ac81442974, type: 3}
       propertyPath: m_RootOrder

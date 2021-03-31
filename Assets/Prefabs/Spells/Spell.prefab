@@ -47,3 +47,5 @@ MonoBehaviour:
   AdditionalEffect: {fileID: 0}
   CastEffect: {fileID: 0}
   AdditionalCastEffect: {fileID: 0}
+  ManaCost: 10
+  Damage: 10

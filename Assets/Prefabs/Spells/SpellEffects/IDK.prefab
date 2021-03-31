@@ -9,7 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1197813074179366, guid: 5e75658b064a03947952f07bc8b0f0d1, type: 3}
       propertyPath: m_Name
-      value: Effect16_Hand
+      value: IDK
+      objectReference: {fileID: 0}
+    - target: {fileID: 1197813074179366, guid: 5e75658b064a03947952f07bc8b0f0d1, type: 3}
+      propertyPath: m_TagString
+      value: SpellEffect
       objectReference: {fileID: 0}
     - target: {fileID: 4698601148187250, guid: 5e75658b064a03947952f07bc8b0f0d1, type: 3}
       propertyPath: m_RootOrder

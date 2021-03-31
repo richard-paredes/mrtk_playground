@@ -9,7 +9,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1590966373120196, guid: ac8a539a7136cf44eb1cadc5a92698fe, type: 3}
       propertyPath: m_Name
-      value: Effect10
+      value: ChaosBolt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590966373120196, guid: ac8a539a7136cf44eb1cadc5a92698fe, type: 3}
+      propertyPath: m_TagString
+      value: SpellEffect
       objectReference: {fileID: 0}
     - target: {fileID: 4714248611113532, guid: ac8a539a7136cf44eb1cadc5a92698fe, type: 3}
       propertyPath: m_RootOrder
