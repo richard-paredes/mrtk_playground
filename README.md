@@ -5,8 +5,8 @@ Messing around with Microsoft's Mixed Reality Tool Kit in Unity!
 See what it's like to be a wizard in mixed reality! With this Unity app, you can cast different spells in your spellbook from the palm of your hand!
 
 # Features remaining
-Enemies spawning that can attack you (Unimplemented)
-Getting it working for the Oculus Quest 2 (Unimplemented)
+- Enemies spawning that can attack you (Unimplemented)
+- Getting it working for the Oculus Quest 2 (Unimplemented)
 
 # Controls
 - Trigger a spell by opening your righthand palm away from yourself.
