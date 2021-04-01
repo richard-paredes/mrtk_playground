@@ -6,7 +6,6 @@ See what it's like to be a wizard in VR! With this Unity app, you can cast diffe
 
 # Features remaining
 Enemies spawned in AR that can attack you (Unimplemented)
-Target practicing (Partially implemented; targets can spawn outside of area and don't respawn yet)
 
 # Controls
 - Trigger a spell by opening your righthand palm away from yourself.
@@ -14,7 +13,7 @@ Target practicing (Partially implemented; targets can spawn outside of area and 
 - Select a spell from your spellbook by pressing any of the spell buttons in the spell book.
 
 # Features
-- Leverages multiple Solvers to track hand position and rotation in order to trigger spell-casting and the spellbook interface
+- Leverages multiple Solvers to track hand position and rotation in order to trigger spell-casting, opening the spellbook interface, and positioning player resource bar
 
 # Dependencies
 - <a href="https://www.microsoft.com/en-us/download/details.aspx?id=102778">MRTK package</a>
