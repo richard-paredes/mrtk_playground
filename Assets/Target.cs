@@ -6,10 +6,9 @@ public class Target : MonoBehaviour
 {    
     private void OnCollisionEnter(Collision other)
     {
-        Debug.Log($"Something collided with me! {other.gameObject.name}");
         if (other.gameObject.name.Contains("Collision"))
         {
-            Destroy(this);
+            gameObject.SetActive(false);
         }
     }
 }

@@ -11,21 +11,27 @@ public class TargetSpawner : MonoBehaviour
     public void SpawnTarget()
     {
         Vector3 pos = GetRandomPositionInViewport();
-        _currentTarget = Instantiate(_targetPrefab, pos, Quaternion.identity, gameObject.transform);
+        if (_currentTarget == null) {
+            _currentTarget = Instantiate(_targetPrefab, pos, Quaternion.identity, gameObject.transform);
+        } else {
+            _currentTarget.transform.SetPositionAndRotation(pos, Quaternion.identity);
+            _currentTarget.SetActive(true);
+        }
     }
 
     private static Vector3 GetRandomPositionInViewport()
     {
         float x = Random.Range(0.05f, 0.95f);
         float y = Random.Range(0.05f, 0.95f);
-        Vector3 pos = new Vector3(x, y, 10.0f);
+        float z = Random.Range(3.0f, 5.0f);
+        Vector3 pos = new Vector3(x, y, z);
         pos = Camera.main.ViewportToWorldPoint(pos);
         return pos;
     }
 
     private void FixedUpdate()
     {
-        if (_currentTarget == null)
+        if (!_currentTarget.activeInHierarchy)
         {
             SpawnTarget();
         }
